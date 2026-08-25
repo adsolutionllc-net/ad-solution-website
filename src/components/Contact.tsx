@@ -423,7 +423,7 @@ export function Contact() {
                       >
                         By clicking here, you agree to receive text
                         communications regarding IT related services
-                        from AD Financial Solution LLC. Standard terms
+                        from AD Solution LLC. Standard terms
                         and rates may apply. Message frequency may vary.
                         Text STOP to opt out and HELP for support. By
                         submitting this form, I confirm that I have read
