@@ -34,7 +34,7 @@ import { allJobs } from '@/data/content';
 import { WhatsAppButton } from '@/components/WhatsAppButton';
 import { Helmet } from 'react-helmet-async';
 import { NotFoundPage } from '@/pages/NotFoundPage';
-
+import { PrivacyPolicyTermsPage } from '@/pages/PrivacyPolicyTermsPage';
 
 function HomePage() {
   const revealRef = useScrollReveal<HTMLDivElement>([]);
@@ -261,12 +261,16 @@ export default function App() {
           path="/request-talent"
           element={<RequestTalentRoute />}
         />
-
+        <Route
+         path="/privacy-policy-terms"
+         element={<PrivacyPolicyTermsPage />}
+        />
         <Route
           path="*"
           element={<NotFoundPage />}
         />
       </Routes>
+      
 
       <WhatsAppButton />
     </>
