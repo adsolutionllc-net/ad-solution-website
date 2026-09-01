@@ -430,10 +430,21 @@ export function Contact() {
                         and agree to the{' '}
 
                         <a
-                          href="/privacy-policy-terms"
+                          href="/privacy-policy"
+                          target="_blank"
+                          rel="noopener noreferrer"
                           className="font-medium text-brand-600 underline hover:text-brand-700"
                         >
-                          Privacy Policy and Terms of Service
+                          Privacy Policy
+                        </a>{' '}
+                        and{' '}
+                        <a
+                          href="/terms-of-service"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="font-medium text-brand-600 underline hover:text-brand-700"
+                        >
+                          Terms of Service
                         </a>
                         .
                       </label>
