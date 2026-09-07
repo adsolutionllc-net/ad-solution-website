@@ -96,12 +96,11 @@ export function Contact() {
     if (
       !payload.name ||
       !payload.email ||
-      !payload.phone ||
       !payload.message
     ) {
       setStatus('error');
       setErrorMsg(
-        'Please fill in your name, email, phone number, and message.'
+        'Please fill in your name, email, and message.'
       );
       return;
     }
@@ -315,13 +314,11 @@ export function Contact() {
                     <Field
                       label="Phone"
                       htmlFor="phone"
-                      required
                     >
                       <input
                         id="phone"
                         name="phone"
                         type="tel"
-                        required
                         autoComplete="tel"
                         className={inputClass}
                         placeholder="+1 (214) 555-0142"
